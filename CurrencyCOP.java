@@ -4,4 +4,17 @@ public Currency(){
 	super.Currency("COL", 0, 0.0023);
 }
 
+/****
+*
+*
+*
+*
+*
+**/
+public boolean isUnderValue(){
+
+
+
+}
+
 }
