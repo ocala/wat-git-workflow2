@@ -4,7 +4,6 @@ private String country;
 private double valueUSD;
 private double value;
 
-public abstract Currency();
 
 public Currency(String country,double value, double valueUSD){
    this.country = country;
@@ -14,6 +13,10 @@ public Currency(String country,double value, double valueUSD){
 
 public double getValue(){	
 return this.value;
+}
+
+public double getValueUSD(){
+return this.valueUSD;
 }
 
 public void setValue(double value){
