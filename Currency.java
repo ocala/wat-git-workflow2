@@ -1,11 +1,18 @@
 public abstract class Currency{
 	
-public String country;
-public double valueUSD;
-public double value;
+private String country;
+private double valueUSD;
+private double value;
 
-public double getValue(){
-	
+public abstract Currency();
+
+public Currency(String country,double value, double valueUSD){
+   this.country = country;
+   this.value = value;
+   this.valueUSD = valueUSD;
+}
+
+public double getValue(){	
 return this.value;
 }
 
