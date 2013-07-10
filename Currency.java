@@ -4,7 +4,7 @@ private String country;
 private double valueUSD;
 private double value;
 
-
+//this is a simple comment
 public Currency(String country,double value, double valueUSD){
    this.country = country;
    this.value = value;

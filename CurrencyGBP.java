@@ -1,4 +1,4 @@
-public  class  CurrencyPoundSterling extends Currency{
+public  class  CurrencyGBP extends Currency{
 	
 
 

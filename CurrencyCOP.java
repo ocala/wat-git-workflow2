@@ -7,5 +7,17 @@ public Currency(){
 public String getCountry(){
 	return country;
 }
+/****
+*
+*
+*
+*
+*
+**/
+public boolean isUnderValue(){
+
+
+
+}
 
 }
